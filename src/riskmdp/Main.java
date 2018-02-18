@@ -733,6 +733,13 @@ public class Main
 	{
 		State st = null;
 		double delta = 1d;
+		/*
+		 * gamma can be tuned depending on whether or not a player needs
+		 * immediate rewards. This can be kept to a higher value, when
+		 * playing for global domination for better results. Refer
+		 * literature on the value iteration algorithm for further
+		 * details.
+		 */
 		double gamma = 0.1d;
 		while( delta > 0.00000001 )
 		{

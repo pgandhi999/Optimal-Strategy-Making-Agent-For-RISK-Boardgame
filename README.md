@@ -13,8 +13,11 @@ to be controlled and the player for which to devise the optimal strategy as the 
 
 To demonstrate the working of the agent, the initial state of the game has been entered based on
 the image that has been uploaded as sample_initial_state.jpg. As an example, the objective chosen
-was to Control Europe and the player for which the agent computes the strategy is the Blue player. The results have been uploaded
-as sample_result.txt. To run the program, run the file Main.java.
+was to Control Europe and the player for which the agent computes the strategy is the Blue player.
+For the gamma value of 0.1, the results have been uploaded as sample_result.txt.
+To run the program, run the file Main.java. The program will output the first optimal move. If the move
+was a success, type 'yes' else, type 'no'. Depending on your feedback, the agent will
+output the next optimal move accordingly.
 
 Issues:
 For some cases, the Markov Chain can grow exceedingly large and JVM could run out of memory. Even after pruning
