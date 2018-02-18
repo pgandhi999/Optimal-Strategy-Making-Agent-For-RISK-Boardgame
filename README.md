@@ -19,10 +19,10 @@ To run the program, run the file Main.java. The program will output the first op
 was a success, type 'yes' else, type 'no'. Depending on your feedback, the agent will
 output the next optimal move accordingly.
 
-Issues:
+**Issues:**
 For some cases, the Markov Chain can grow exceedingly large and JVM could run out of memory. Even after pruning
 the state space, the number of nodes in the Markov Chain can reach in the range of hundreds of millions. For this reason,
 it is recommended that this program is run on a server with enough memory and try to set at least 12g of memory via the -Xmx option.
 
-License:
+**License:**
 See the LICENSE file for license rights and limitations (MIT).
